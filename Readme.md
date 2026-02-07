@@ -10,9 +10,11 @@ Les données proviennent de la campagne d’une banque et sont accessibles via l
 ❓ **Problématique**
 
 Pourquoi ce projet ?
+
 Les campagnes marketing ciblées sont essentielles pour optimiser les coûts et maximiser les conversions. Cependant, le succès de ces campagnes dépend de la capacité à identifier les clients les plus susceptibles de répondre positivement.
 
 Question centrale :
+
 Comment construire un modèle prédictif fiable pour identifier les clients susceptibles de souscrire à un dépôt à terme, en s’appuyant sur un pipeline structuré de prétraitement, de sélection de caractéristiques et de modélisation ?
 
 🔧 **Méthodologie**
@@ -87,7 +89,8 @@ Commentaires attendus:
 
 ✅ **Conclusions et Recommandations**
 
-Implications pour l’entreprise
+Implications pour l’entreprise.
+
 Un modèle bien calibré permet de :
 
 1- Réduire les coûts de campagne en ciblant les clients les plus réceptifs
