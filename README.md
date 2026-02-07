@@ -1,8 +1,15 @@
-**Projet :** Prédiction de Souscription à un Dépôt Bancaire (Classification avec Random Forest)
-**Description :** Ce projet utilise l'apprentissage automatique pour prédire si un client souscrira à un dépôt à terme après une campagne marketing téléphonique, en se basant sur des données démographiques et comportementales.
+**Projet :** 
+
+Prédiction de Souscription à un Dépôt Bancaire (Classification avec Random Forest)
+
+**Description :** 
+
+Ce projet utilise l'apprentissage automatique pour prédire si un client souscrira à un dépôt à terme après une campagne marketing téléphonique, en se basant sur des données démographiques et comportementales.
 
 🎯 **Objectif / Contexte**
+
 Problème à résoudre :
+
 Les banques effectuent régulièrement des campagnes marketing pour proposer des produits financiers (comme des dépôts à terme). Ces campagnes ont un coût, et contacter tous les clients est inefficace.
 L'objectif est de construire un modèle prédictif qui identifie les clients les plus susceptibles de souscrire, afin d'optimiser les efforts marketing et d'améliorer le taux de conversion.
 
@@ -15,7 +22,9 @@ Pourquoi c'est intéressant :
 - Cas pratique typique de classification binaire en machine learning
 
 📊 **Données**
+
 Source : UCI Machine Learning Repository - Bank Marketing Dataset
+
 Taille :
 
 bank-full.csv : 45 211 lignes (entraînement)
@@ -25,6 +34,7 @@ bank.csv : 4 521 lignes (test)
 Variables principales (17 colonnes) :
 
 Catégorie	Variables	Description
+
 Démographiques	age, job, marital, education	Âge, profession, situation familiale, niveau d'étude
 Financières	default, balance, housing, loan	Défaut de crédit, solde, prêt immobilier, prêt personnel
 Campagne	contact, day, month, duration, campaign	Type de contact, jour/mois, durée d'appel, nombre de contacts
@@ -32,6 +42,7 @@ Historique	pdays, previous, poutcome	Jours depuis dernier contact, contacts pré
 Cible	y	Souscription au dépôt (yes/no)
 
 🛠️ **Méthodologie / Analyse**
+
 Le projet suit un pipeline structuré :
 
 1. Prétraitement des données
@@ -72,9 +83,6 @@ Impact de l'historique : Les clients contactés récemment (pdays) et ayant déj
 Profil type du souscripteur : Clients plus âgés, avec un solde élevé et sans prêt en cours.
 
 Limite du modèle : La variable duration est très prédictive, mais n'est connue qu'après l'appel → à utiliser avec précaution pour de nouvelles campagnes.
-
-Visualisation (exemple de boxplot généré pour explorer la distribution des variables numériques et détecter les valeurs aberrantes):
-https://via.placeholder.com/800x400.png?text=Boxplots+montrant+les+distributions+et+outliers+des+variables+num%25C3%25A9riques
 
 
 🖥️ **Technologies utilisées**
