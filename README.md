@@ -106,7 +106,7 @@ Modèle : RandomForestClassifier (classification)
 KOUDA KYLIAN
 Étudiant en Data Science / Analyste Data
 
-GitHub : 
+GitHub : https://github.com/Kylian-KK/Mini_Projet-Prediction-Bancaire/tree/main
 
 LinkedIn : https://www.linkedin.com/feed/
 
